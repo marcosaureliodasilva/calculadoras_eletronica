@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="genius_arquivos/genius.css" type="text/css">
+<script src="genius_arquivos/genius.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()">
+<form name="formu0">
+<input type="password" class="lista" tabindex="1" name="perguntar" value="60"><br />
+</form>
+<table border="3" cellpadding="10" width="600">
+<tr>
+<td colspan="2" class="perg">
+<form name="formu1">
+<label class="lista">pergunta:</label><BR />
+<textarea class="lista" tabindex="-1" name="mostrador" value="60" onfocus="focar_nume(0,0)">
+</textarea><br />
+</form>
+</td>
+</tr>
+<tr>
+<td class="resp">
+<form name="formu2">
+<input name="limpo" type="button" class="acao" tabindex="2" value="limpar" onclick="limpar()"><br><br>
+<input name="respo" type="button" class="acao" tabindex="3" value="resposta" onclick="decide()">
+</form>
+</td>
+<td  class="resp" width="450">
+<form name="formu3">
+<label class="resu">resposta:</label><BR />
+<input type="text" class="resu" tabindex="-1" name="responder" onfocus="focar_nume(0,0)"><br />
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

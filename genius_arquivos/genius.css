@@ -1,0 +1,9 @@
+body{background-color:#000000}
+td.perg{background-color:#00ffff}
+td.resp{background-color:#ff0000}
+label.lista{color:#000000; font-family:arial; font-size:12pt; font-weight:bold; text-align:right}
+label.resu{color:#ffffff; font-family:arial; font-size:12pt; text-align:right; font-weight:bold}
+textarea.lista{background-color:#ffffff; width:400pt; height:100pt; font-size:14pt}
+input.lista{background-color:#000000; border:0pt}
+input.resu{width:300pt}
+input.acao{width:60pt}

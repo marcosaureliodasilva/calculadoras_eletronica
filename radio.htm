@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="radio_arquivos/radio.css" type="text/css">
+<script src="radio_arquivos/radio.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()">
+<form name="formu1">
+<table class="etapa0" cellpadding="10">
+<tr>
+<td class="etapa1" colspan="2"><br />
+<label class="entrada">Capacitância em uF = </label>
+<input type="text" class="entrada" name="e1" value=""><br />
+<label class="entrada">Frequência em kHz = </label>
+<input type="text" class="entrada" name="e2" value=""><br /><br />
+</td>
+</tr>
+<tr>
+<td class="etapa2">
+<input type="button" class="acao" value="limpar" onclick="limpar1()"><br /><br />
+<input type="button" class="acao" value="calcular" onclick="escolhe1()">
+</td>
+<td class="etapa2">
+<label class="saida">Reatância capacitiva = </label>
+<input type="text" class="saida" name="s1" tabindex="-1"><br />
+</td>
+</tr>
+</table>
+</form>
+<form name="formu2">
+<table class="etapa0" cellpadding="10">
+<tr>
+<td class="etapa1" colspan="2"><br />
+<label class="entrada">Indutância em uH = </label>
+<input type="text" class="entrada" name="e1" value=""><br />
+<label class="entrada">Frequência em kHz = </label>
+<input type="text" class="entrada" name="e2" value=""><br /><br />
+</td>
+</tr>
+<tr>
+<td class="etapa2">
+<input type="button" class="acao" value="limpar" onclick="limpar2()"><br /><br />
+<input type="button" class="acao" value="calcular" onclick="escolhe2()">
+</td>
+<td class="etapa2">
+<label class="saida">Reatância indutiva = </label>
+<input type="text" class="saida" name="s1" tabindex="-1"><br />
+</td>
+</tr>
+</table>
+</form>
+<form name="formu3">
+<table class="etapa0" cellpadding="10">
+<tr>
+<td class="etapa1" colspan="2"><br />
+<label class="entrada">Capacitância em pF = </label>
+<input type="text" class="entrada" name="e1" value=""><br />
+<label class="entrada">Indutância em uH = </label>
+<input type="text" class="entrada" name="e2" value=""><br /><br />
+</td>
+</tr>
+<tr>
+<td class="etapa2">
+<input type="button" class="acao" value="limpar" onclick="limpar3()"><br /><br />
+<input type="button" class="acao" value="calcular" onclick="escolhe3()">
+</td>
+<td class="etapa2">
+<label class="saida">Frequência = </label>
+<input type="text" class="saida" name="s1" tabindex="-1"><br />
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="config_pic_arquivos/config_pic.css" type="text/css">
+<script src="config_pic_arquivos/config_pic.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()" bgcolor="#000000">
+<table border="3" width="600" cellpadding="10">
+<tr>
+<td bgcolor="#00ffff">
+<form name="formu5">
+<input type="text" class="lista" name="mos5" value=""><br>
+</form>
+</td>
+<td bgcolor="#00ffff">
+<form name="formu6">
+<input type="text" class="lista" name="mos6" value=""><br>
+</form>
+</td>
+<td bgcolor="#00ffff">
+<form name="formu7">
+<input type="text" class="lista" name="mos7" value=""><br>
+</form>
+</td>
+<td bgcolor="#00ffff">
+<form name="formu8">
+<input type="text" class="lista" name="mos8" value=""><br>
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ff0000">
+<form name="formu9">
+<label class="lista">Code protection (CP)</label><br>
+<select name="sele91" onChange="escolhe()">
+<option value="1" selected>OFF
+<option value="0">ON
+</select><br>
+</form>
+</td>
+<td bgcolor="#ff0000">
+<form name="formu10">
+<label class="lista">Data protection (DATA CP)</label><br>
+<select name="sele101" onChange="escolhe()">
+<option value="1" selected>OFF
+<option value="0">ON
+</select><br>
+</form>
+</td>
+<td bgcolor="#ff0000">
+<form name="formu11">
+<label class="lista">Low voltage programming (LVP)</label><br>
+<select name="sele111" onChange="escolhe()">
+<option value="0">OFF
+<option value="1" selected>ON
+</select><br>
+<label class="lista">Brown-Out reset (BOREN)</label><br>
+<select name="sele112" onChange="escolhe()">
+<option value="0">OFF
+<option value="1" selected>ON
+</select><br>
+<label class="lista">Master clear (MCLRE)</label><br>
+<select name="sele113" onChange="escolhe()">
+<option value="0">OFF
+<option value="1" selected>ON
+</select><br>
+</form>
+</td>
+<td bgcolor="#ff0000">
+<form name="formu12">
+<label class="lista">Power-Up timer (PWRTE)</label><br>
+<select name="sele121" onChange="escolhe()">
+<option value="1" selected>OFF
+<option value="0">ON
+</select><br>
+<label class="lista">WatchDog timer (WDT)</label><br>
+<select name="sele122" onChange="escolhe()">
+<option value="0">OFF
+<option value="1" selected>ON
+</select><br>
+<label class="lista">Oscilador (OSC)</label><br>
+<select name="sele123" onChange="escolhe()">
+<option value="000">LP cristal até 200 KHz
+<option value="001">XT cristal até 4 MHz
+<option value="010">HS cristal até 20 MHz
+<option value="011">EXT oscilador externo
+<option value="100">INT sem clock
+<option value="101">INT com clock
+<option value="110">RC sem clock
+<option value="111" selected>RC com clock
+</select><br>
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#00ff00">
+<form name="formu1">
+<input type="button" value="calcular" onclick="escolhe()">
+</form>
+</td>
+<td bgcolor="#00ff00" colspan="3">
+<form name="formu2">
+<input size="10" class="lista" type="text" name="mos2">
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="transforinverso_arquivos/transforinverso.css" type="text/css">
+<script src="transforinverso_arquivos/transforinverso.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()" bgcolor="#000000">
+<table border="3" cellpadding="10" width="600">
+<tr>
+<td bgcolor="#00ffff" colspan="2">
+<form name="formu3">
+<label class="lista">Frequência (Hz) = F</label>
+<input type="text" class="lista" tabindex="1" name="f1" value="60"><br />
+<label class="lista">Bobina primária (voltas) = N1</label>
+<input type="text" class="lista" tabindex="2" name="nt1" value=""><br />
+<label class="lista">Bobina secundária (voltas) = N2</label>
+<input type="text" class="lista" tabindex="3" name="nt2" value=""><br />
+<label class="lista">Núcleo (cm) = A</label>
+<input type="text" class="lista" tabindex="4" name="t4" value=""><br />
+<label class="lista">Espessura do núcleo (cm) = esp</label>
+<input type="text" class="lista" tabindex="5" name="t5" value=""><br />
+<label class="lista">Indução máxima no ferro = BM</label>
+<input type="text" class="lista" tabindex="6" name="t6" value="11300"><br />
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ff0000">
+<form>
+<input type="button" class="acao" tabindex="7" value="limpar" onclick="limpar()"><br /><br />
+<input type="button" class="acao" tabindex="8" value="calcular" onclick="decide()">
+</form>
+</td>
+<td bgcolor="#ff0000" width="450">
+<form name="formu4">
+<label class="resu">Seção geométrica = SG</label>
+<input type="text" class="resu" tabindex="-1" name="resu2"><br />
+<label class="resu">Seção magnética = SW</label>
+<input type="text" class="resu" tabindex="-1" name="resu1"><br />
+<label class="resu">Espiras por volt = EV</label>
+<input type="text" class="resu" tabindex="-1" name="resu4"><br />
+<label class="resu">Tensão primário = V1</label>
+<input type="text" class="resu" tabindex="-1" name="resu5"><br />
+<label class="resu">Tensão secundário = V2</label>
+<input type="text" class="resu" tabindex="-1" name="resu6"><br />
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

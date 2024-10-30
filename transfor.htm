@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="transfor_arquivos/transfor.css" type="text/css">
+<script src="transfor_arquivos/transfor.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()" bgcolor="#000000">
+<table border="3" cellpadding="10" width="600">
+<tr>
+<td bgcolor="#00ffff" colspan="2">
+<form name="formu1">
+<label class="lista">Tensão do primário = V1</label>
+<input type="text" class="lista" name="t1" value=""><br>
+<label class="lista">Tensão do Secundário = V2</label>
+<input type="text" class="lista" name="t2" value=""><br>
+<label class="lista">Potência do secundário = W2</label>
+<input type="text" class="lista" name="t3" value=""><br>
+<label class="lista">Frequência = F</label>
+<input type="text" class="lista" name="t4" value="60"><br>
+<label class="lista">Tipo das lâminas</label>
+<select class="lista" name="s5">
+<option value="7.5" selected>lâminas padronizadas
+<option value="6">lâminas compridas
+</select><br>
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ff0000">
+<form>
+<input type="button" class="acao" value="limpar" onclick="limpar1()"><br /><br />
+<input type="button" value="calcular" onclick="escolhe()">
+</form>
+</td>
+<td bgcolor="#ff0000" width="450">
+<form name="formu2">
+<label class="resu">Potência do primário = W1</label>
+<input type="text" class="resu" name="resu1" tabindex="-1"><br>
+<label class="resu">Corrente do primário = I1</label>
+<input type="text" class="resu" name="resu2" tabindex="-1"><br>
+<label class="resu">Corrente do secundário = I2</label>
+<input type="text" class="resu" name="resu3" tabindex="-1"><br>
+<label class="resu">Densidade da corrente = D</label>
+<input type="text" class="resu" name="resu4" tabindex="-1"><br>
+<label class="resu">Seção do primário = S1</label>
+<input type="text" class="resu" name="resu5" tabindex="-1"><br>
+<label class="resu">Seção do secundário = S2</label>
+<input type="text" class="resu" name="resu6" tabindex="-1"><br>
+<label class="resu">Seção magnética = SW</label>
+<input type="text" class="resu" name="resu7" tabindex="-1"><br>
+<label class="resu">Seção geométrica = SG</label>
+<input type="text" class="resu" name="resu8" tabindex="-1"><br>
+<label class="resu">Núcleo sugerido = A</label>
+<input type="text" class="resu" name="resu9" tabindex="-1"><br>
+</form>
+</td>
+</tr>
+</table>
+<br>
+<!---------------------------------------------------------------------------->
+<table border="3" cellpadding="10" width="600">
+<tr>
+<td bgcolor="#00ffff" colspan="2">
+<form name="formu3">
+<label class="lista">Seção do fio primário = SF1</label>
+<input type="text" class="lista" name="t1" value=""><br>
+<label class="lista">Seção do fio secundário = SF2</label>
+<input type="text" class="lista" name="t2" value=""><br>
+<label class="lista">Tipo das lâminas</label>
+<select class="lista" name="s3">
+<option value="1.5" selected>lâminas padronizadas
+<option value="3">lâminas compridas
+</select><br>
+<label class="lista">Núcleo = A</label>
+<input type="text" class="lista" name="t4" value=""><br>
+<label class="lista">Espessura do núcleo</label>
+<input type="text" class="lista" name="t5" value=""><br>
+<label class="lista">Indução máxima no ferro = BM</label>
+<input type="text" class="lista" name="t6" value="11300"><br>
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ff0000">
+<form>
+<input type="button" class="acao" value="limpar" onclick="limpar2()"><br /><br />
+<input type="button" value="calcular" onclick="decide()">
+</form>
+</td>
+<td bgcolor="#ff0000" width="450">
+<form name="formu4">
+<label class="resu">Seção geométrica = SG</label>
+<input type="text" class="resu" name="resu2" tabindex="-1"><br>
+<label class="resu">Seção magnética = SW</label>
+<input type="text" class="resu" name="resu1" tabindex="-1"><br>
+<label class="resu">Espiras por volt = EV</label>
+<input type="text" class="resu" name="resu4" tabindex="-1"><br>
+<label class="resu">Bobina primária = N1</label>
+<input type="text" class="resu" name="resu5" tabindex="-1"><br>
+<label class="resu">Bobina secundária = N2</label>
+<input type="text" class="resu" name="resu6" tabindex="-1"><br>
+<label class="resu">Seção do cobre = SC</label>
+<input type="text" class="resu" name="resu7" tabindex="-1"><br>
+<label class="resu">Janela</label>
+<input type="text" class="resu" name="resu8" tabindex="-1"><br>
+<label class="resu">Razão de execução > 3</label>
+<input type="text" class="resu" name="resu9" tabindex="-1"><br>
+<label class="resu">Espira média</label>
+<input type="text" class="resu" name="resu10" tabindex="-1"><br>
+<label class="resu">Peso do cobre</label>
+<input type="text" class="resu" name="resu11" tabindex="-1"><br>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="loop_arquivos/loop.css" type="text/css">
+<script src="loop_arquivos/loop.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()">
+<form name="formu1">
+<table class="etapa0" cellpadding="10">
+<tr>
+<td class="etapa1" colspan="2"><br />
+<label class="entrada">Frequência em kHz = </label>
+<input type="text" class="entrada" name="e1" value=""><br /><br />
+</td>
+</tr>
+<tr>
+<td class="etapa2">
+<input type="button" class="acao" value="limpar" onclick="limpar1()"><br /><br />
+<input type="button" class="acao" value="calcular" onclick="escolhe1()">
+</td>
+<td class="etapa2">
+<label class="saida">Comprimento = </label>
+<input type="text" class="saida" name="s1" tabindex="-1"><br />
+</td>
+</tr>
+</table>
+</form>
+<form name="formu2">
+<table class="etapa0" cellpadding="10">
+<tr>
+<td class="etapa1" colspan="2"><br />
+<label class="entrada">Comprimento em m = </label>
+<input type="text" class="entrada" name="e1" value=""><br />
+<label class="entrada">Percentual em % = </label>
+<input type="text" class="entrada" name="e2" value="12.5"><br />
+<label class="entrada">Divisor = </label>
+<select name="e3" onChange="parte(this)">
+<option value="2">1/2
+<option value="4">1/4
+<option value="6" selected>1/6
+<option value="8">1/8
+<option value="10">1/10
+</select>
+<br /><br /></td>
+</tr>
+<tr>
+<td class="etapa2">
+<input type="button" class="acao" value="limpar" onclick="limpar2()"><br /><br />
+<input type="button" class="acao" value="calcular" onclick="escolhe2()">
+</td>
+<td class="etapa2">
+<label class="saida">Comprimento = </label>
+<input type="text" class="saida" name="s1" tabindex="-1"><br />
+</td>
+</tr>
+</table>
+</form>
+<form name="formu3">
+<table class="etapa0" cellpadding="10">
+<tr>
+<td class="etapa1" colspan="2"><br />
+<label class="entrada">Diâmetro em m = </label>
+<input type="text" class="entrada" name="e1" value=""><br /><br />
+</td>
+</tr>
+<tr>
+<td class="etapa2">
+<input type="button" class="acao" value="limpar" onclick="limpar3()"><br /><br />
+<input type="button" class="acao" value="calcular" onclick="escolhe3()">
+</td>
+<td class="etapa2">
+<label class="saida">Circunferência = </label>
+<input type="text" class="saida" name="s1" tabindex="-1"><br />
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

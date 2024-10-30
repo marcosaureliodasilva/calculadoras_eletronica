@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="circui_arquivos/circui.css" type="text/css">
+<script src="circui_arquivos/circui.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()" bgcolor="#000000">
+<table border="3" cellpadding="10"><tr>
+<td width="150" bgcolor="#00ff00">
+<form name="formu1a">
+<input size="10" type="text" name="mos1">
+</form>
+</td>
+<td width="150" bgcolor="#00ff00">
+<form name="formu2a">
+<input size="10" type="text" name="mos2">
+</form>
+</td>
+<td width="150" bgcolor="#00ff00">
+<form name="formu3a">
+<input size="10" type="text" name="mos3">
+</form>
+</td>
+<td width="150" bgcolor="#00ff00">
+<form name="formu4a">
+<input size="10" type="text" name="mos4">
+</form>
+</td>
+</tr><tr>
+<td bgcolor="#00ffff">
+<form name="formu1b">
+<select name="cores1" onChange="escolhe()">
+<option value="0">preto
+<option value="1" selected>marrom
+<option value="2">vermelho
+<option value="3">laranja
+<option value="4">amarelo
+<option value="5">verde
+<option value="6">azul
+<option value="7">violeta
+<option value="8">cinza
+<option value="9">branco
+<option value="0.1">ouro
+<option value="0.01">prata
+</select>
+</form>
+</td>
+<td bgcolor="#00ffff">
+<form name="formu2b">
+<select name="cores2" onChange="escolhe()">
+<option value="0" selected>preto
+<option value="1">marrom
+<option value="2">vermelho
+<option value="3">laranja
+<option value="4">amarelo
+<option value="5">verde
+<option value="6">azul
+<option value="7">violeta
+<option value="8">cinza
+<option value="9">branco
+<option value="0.1">ouro
+<option value="0.01">prata
+</select>
+</form>
+</td>
+<td bgcolor="#00ffff">
+<form name="formu3b">
+<select name="cores3" onChange="escolhe()">
+<option value="0">preto
+<option value="1" selected>marrom
+<option value="2">vermelho
+<option value="3">laranja
+<option value="4">amarelo
+<option value="5">verde
+<option value="6">azul
+<option value="7">violeta
+<option value="8">cinza
+<option value="9">branco
+<option value="0.1">ouro
+<option value="0.01">prata
+</select>
+</form>
+</td>
+<td bgcolor="#00ffff">
+<form name="formu4b">
+<select name="cores4" onChange="escolhe()">
+<option value="0.05">ouro
+<option value="0.10" selected>prata
+<option value="0.20">incolor
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ff0000">
+<form>
+<input type="button" value="calcular" onclick="escolhe()">
+</form>
+</td>
+<td bgcolor="#ff0000">
+<form name="formu2c">
+<p class="lista">resultado</p>
+<input size="20" type="text" name="resu">
+</form>
+</td>
+<td bgcolor="#ff0000">
+<form name="formu3c">
+<p class="lista">tolerancia</p>
+<input size="20" type="text" name="tole">
+</form>
+</td>
+<td bgcolor="#ff0000">
+<form name="formu4c">
+<p class="lista">intervalo</p>
+<input size="40" type="text" name="inte">
+</form>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

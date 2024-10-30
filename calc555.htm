@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+CENTEC - Juazeiro do Norte
+</title>
+<link rel="stylesheet" href="calc555_arquivos/calc555.css" type="text/css">
+<script src="calc555_arquivos/calc555.js" type="text/javascript">
+</script>
+</head>
+<body onload="iniciar()" bgcolor="#000000">
+<table border="3" cellpadding="10" width="600">
+<tr>
+<td bgcolor="#00ffff" colspan="2">
+<form name="formu1">
+<label class="lista">Rx1 em Ohms = R1</label>
+<input type="text" class="lista" name="r1" value="68000"><br>
+<label class="lista">Rx2 em Ohms = R2</label>
+<input type="text" class="lista" name="r2" value="39000"><br>
+<label class="lista">Capacitor em pF = C</label>
+<input type="text" class="lista" name="c1" value="1000000"><br>
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ff0000">
+<form>
+<input type="button" class="acao" value="limpar" onclick="limpar()"><br><br>
+<input type="button" class="acao" value="calcular" onclick="escolhe()">
+</form>
+</td>
+<td bgcolor="#ff0000" width="450">
+<form name="formu2">
+<label class="resu">Frequencia = F</label>
+<input type="text" class="resu" name="resu1" tabindex="-1"><br>
+</form>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ff0000" colspan="2">
+<img src="calc555_arquivos/555test.gif">
+</td>
+</tr>
+</table>
+<br>
+</body>
+</html>
